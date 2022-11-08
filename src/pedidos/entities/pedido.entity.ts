@@ -23,7 +23,22 @@ export class Pedido {
     email: string;
 
     @Column()
-    address: string;
+    celular: number;
+
+    @Column()
+    provincia: string;
+
+    @Column()
+    ciudad: string;
+
+    @Column()
+    Cpostal: number;
+
+    @Column()
+    direccion: string;
+
+    @Column()
+    usuarioIp: string;
 
    
 }
